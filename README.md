@@ -1076,4 +1076,14 @@ iscroll的闪动问题也与渲染有关系，可以参考
 	    var fields       = ["displayName", "name","phoneNumbers"];
 	    navigator.contacts.find(fields, onSuccess, onError,options);  
 	    }
+	    
+	    
+* Mars，腾讯移动Web前端知识库，Spirit 的理论基础，已经有一些资料，还不完善，欢迎高手们做贡献。https://github.com/AlloyTeam/Mars
+* TmT，恩，还是腾讯的，一个移动终端前端开发日志博客，不太活跃，但有几篇不错的文章，希望他们能多多更新。http://tmt.io/	    
+
+###库和解决方案：
+
+* Zepto，类似 jQuery 的阉割版，没有兼容IE的冗余部分（手机上没有 IE6），变得体积小巧，同时封装一些常用手势之类的。http://zeptojs.com/
+* Spirit，腾讯移动 Web 整体解决方案。提供一整套的移动开发技巧、取代 jQuery 的库和 UI 部件。http://alloyteam.github.io/Spirit/
+* AGILE CSS3 ENGINE，最近刚发现的，还没仔细研究，就是用 JS 来生成 CSS3 代码，兼顾了兼容性和性能，据说低端安卓都可以流畅运行，还没实际测试过。http://a-jie.github.io/Agile/index.html
 
